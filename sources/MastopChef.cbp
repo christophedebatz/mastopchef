@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MastopChef" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\MastopChef" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\MastopChef" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\Qt\2010.05\qt\include" />
+			<Add directory="C:\Qt\2010.05\qt\include\QtGui" />
+			<Add directory="C:\Qt\2010.05\qt\include\QtXml" />
+		</Compiler>
+		<Linker>
+			<Add library="QtCore4" />
+			<Add library="QtGui4" />
+			<Add directory="C:\Qt\2010.05\qt\lib" />
+		</Linker>
+		<Unit filename="CookStep.cpp" />
+		<Unit filename="CookStep.h" />
+		<Unit filename="Ingredient.cpp" />
+		<Unit filename="Ingredient.h" />
+		<Unit filename="Machine.cpp" />
+		<Unit filename="Machine.h" />
+		<Unit filename="MainForm.cpp" />
+		<Unit filename="MainForm.h" />
+		<Unit filename="Material.cpp" />
+		<Unit filename="Material.h" />
+		<Unit filename="PerishableIngredient.cpp" />
+		<Unit filename="PerishableIngredient.h" />
+		<Unit filename="Recipe.cpp" />
+		<Unit filename="Recipe.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="moc_MainForm.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
